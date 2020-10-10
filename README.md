@@ -1,1 +1,1 @@
-# WebDevGirls
+# WebDevelopment
