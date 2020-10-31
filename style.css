@@ -38,3 +38,40 @@
     background: #007bff;
     background: linear-gradient(to right, #0062E6,#33AEFF);
 }
+
+.style{
+    border-color: grey;
+}
+
+.col-md-8{
+    text-align: left;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: large;
+    font-weight: 500;
+    color:black;
+    background-color: linen;
+}
+
+.card-text{
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: large;
+    font-weight: 500;
+    color: grey; 
+}
+
+.card-img{
+    border-color: black;
+    border-radius: 50px;
+    border-width: 10px;
+}
+
+.ashly{
+    height: 150px;
+    width: 200px;
+}
+
+.kimberly{
+    height: 150px;
+    width: 200px;
+}
