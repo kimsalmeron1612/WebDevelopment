@@ -6,7 +6,16 @@
 
 
 /* Carousel styling goes here */
-
+#carouselExampleCaptions img{
+    width: 400px;
+    height:600px;
+  }
+  
+  .carousel-inner{
+    width: 100%;
+    height: auto;
+  }
+  
 
 
 
