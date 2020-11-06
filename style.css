@@ -1,48 +1,52 @@
 /* NavBar styling goes here */
-
 #color{
     background-color: pink;
+    opacity: 0.9;
+    height: 75px;
 }
 
+#color a{
+    font-size: 20px;
+}
 
 /* Carousel styling goes here */
 #carouselExampleCaptions img{
     width: 400px;
     height:600px;
   }
-  
-  .carousel-inner{
+
+.carousel-inner{
     width: 100%;
     height: auto;
   }
-  
-
-
 
 
 /* Cards styling goes here */
-
-.card-deck{
-   
-    margin: 20,20,20,20%
-
+.card{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
-
+.row img{
+    width: 100%;
+    height: 350px;
+}
 
 /* Footer styling goes here */
 #footer{
     text-align: center;
     width: 100%;
-    height: 60px;
+    height: 75px;
     background: #007bff;
     background: linear-gradient(to right, #0062E6,#33AEFF);
 }
 
+
+/* AboutUs styling goes here */
 .style{
     border-color: grey;
 }
-
 .col-md-8{
     text-align: left;
     font-family: Comic Sans MS, Comic Sans, cursive;
@@ -57,7 +61,7 @@
     font-family: Comic Sans MS, Comic Sans, cursive;
     font-size: large;
     font-weight: 500;
-    color: grey; 
+    color: grey;
 }
 
 .card-img{
