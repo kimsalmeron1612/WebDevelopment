@@ -1,0 +1,37 @@
+.navbar{
+   font-family: 'Courier New', Courier, monospace;
+   font-size: large;
+   font-weight: 500;
+   color: black;
+}
+.about-us{
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: larger;
+        font-weight: 500;
+        font-variant: initial;
+        font-stretch: expanded;
+        background-image: cross-fade(50px);
+
+}
+.money{
+    color: black;
+    background-color: lightgreen;
+    float: left;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-variant: initial;
+    font-weight: initial;
+}
+.background{
+    width: max-content;
+    height: max-content;
+    position: fixed;
+    background-size: auto;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.3;
+}
+ 
