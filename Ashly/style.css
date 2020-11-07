@@ -16,13 +16,13 @@
 }
 .money{
     color: black;
-    background-color: lightgreen;
     float: left;
     overflow: hidden;
     font-family: 'Courier New', Courier, monospace;
-    font-size: medium;
+    font-size: large;
     font-variant: initial;
-    font-weight: initial;
+    font-weight: bold;
+    text-align: left;
 }
 .background{
     width: max-content;
@@ -33,5 +33,33 @@
     left: 0;
     z-index: -1;
     opacity: 0.3;
+}
+
+.exercise img{
+    width: 200px;
+    height:50px;
+    
+}
+
+.exercise{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    font-weight: 500;
+    font-variant: initial;
+    font-stretch: expanded;
+}
+
+.money-background{
+    width: 800px;
+    height: 1000px;
+    position: fixed;
+    background-size: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.3;
+
+
 }
  
