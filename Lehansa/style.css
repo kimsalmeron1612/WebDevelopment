@@ -1,0 +1,18 @@
+.header{
+ text-align:center;
+ border-style: groove;
+border-width: 20px;
+ border-color:powderblue;
+ border-radius: 50px;
+ background-color:  blueviolet;}
+ img{
+     widows: 100%;
+     height: auto;
+     position:fixed;
+     z-index:-1;
+     opacity:20%;
+ }
+ .about{
+     text-align: center;
+    font-family:Palatino, URW Palladio L, serif;
+ }
