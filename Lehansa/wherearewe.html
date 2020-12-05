@@ -1,24 +1,50 @@
 <!DOCTYPE html>
 <html>
-	<head>
-	<title>My map</title>
-        <link rel='stylesheet' type='text/css' href='https://api.tomtom.com/maps-sdk-for-web/cdn/5.x/5.37.2/maps/maps.css'/>
+    <head>
+    <title>My map</title>
+        <link rel='stylesheet' type='text/css' href='https://api.tomtom.com/maps-sdk-for-web/cdn/5.x/5.37.2/maps/maps.css%27/%3E'/>
         <script src='https://api.tomtom.com/maps-sdk-for-web/cdn/5.x/5.37.2/maps/maps-web.min.js'></script>
-        <style>
-            #map {
-              height: 500px;
-              width: 500px;
+         
+         <style> #map {
+              height: 100%;
+              width: 100%;
           }
         </style>
     </head>
     <body>
         <div id='map'></div>
         <script>
+
+            var UnionCity = [-74.0238, 40.7795];
+
             var map = tt.map({
                 container: 'map',
-                key: '<G19XOYGYQGScfiN1EXGhszh15t7OKh74>',
-                style: 'tomtom://vector/1/basic-main'
+                key: 'G19XOYGYQGScfiN1EXGhszh15t7OKh74',
+                style: 'tomtom://vector/1/basic-main',
+                center: UnionCity,
+                zoom: 12
             });
+
+            var marker = new tt.Marker().setLngLat(UnionCity).addTo(map);
+
+            var popupOffsets = {
+                top: [0, 0],
+                bottom: [0, -70],
+                'bottom-right': [0, -70],
+                'bottom-left': [0, -70],
+                left: [25, -35],
+                right: [-25, -35]
+                }
+
+            var popup = new tt.Popup({offset: popupOffsets}).setHTML("<b>Union City</b><br>New Jersey 07087");
+            marker.setPopup(popup).togglePopup();
+
         </script>
     </body>
 </html>
+
+
+
+
+
+
