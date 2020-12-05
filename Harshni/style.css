@@ -1,0 +1,186 @@
+
+.first{
+    background-color: lightgray;
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: large;
+    font-weight: 500;
+    
+}
+
+.second{
+    background-color: lightgray;
+    text-align: center;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: large;
+    font-weight: 500;
+}
+
+
+.portfolio{
+    text-align: center;
+    border-style: double;
+    border-width: 10px;
+    border-color: springgreen;
+    border-radius: 50px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: large;
+    font-weight: 500;
+    color: rgb(10, 14, 10);
+    background-color:grey;
+}
+.meaning{
+    text-align: left;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: large;
+    font-weight: 500;
+    color: rgb(5, 6, 7); 
+
+}
+.title{
+    text-align: center;
+    border-style: double;
+    border-width: 10px;
+    border-color: springgreen;
+    border-radius: 50px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: large;
+    font-weight: 500;
+    color: rgb(10, 14, 10);
+    background-color: grey;
+}
+.include{
+    text-align: left;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: large;
+    font-weight: 500;
+    color: rgb(5, 6, 7);
+}
+.header{
+    text-align: center;
+    border-style: double;
+    border-width: 10px;
+    border-color: springgreen;
+    border-radius: 50px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: large;
+    font-weight: 500;
+    background-color:grey;
+}
+.types{
+    text-align: left;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: large;
+    font-weight: 500;
+    color: black;
+   
+}
+
+.resume{
+    text-align: center;
+    border-style: double;
+    border-width: 10px;
+    border-color:springgreen;
+    border-radius: 50px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: large;
+    font-weight: 500;
+    background-color: grey;
+}
+
+.definition{
+    text-align: left;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: large;
+    font-weight: 500;
+    color: rgb(5, 6, 7);
+    
+}
+
+.categories{
+    text-align: center;
+    border-style: double;
+    border-width: 10px;
+    border-color:springgreen;
+    border-radius: 50px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: large;
+    font-weight: 500;
+    background-color:grey;
+}
+.list{
+    text-align: left;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: large;
+    font-weight: 500;
+    color: rgb(5, 6, 7);
+  
+}
+ .links{
+    text-align: center;
+    border-style: double;
+    border-width: 10px;
+    border-color: springgreen;
+    border-radius: 50px;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: large;
+    font-weight: 500;
+    background-color: grey;
+ }
+#nav{
+    background-color: grey;
+}
+
+#nav a{
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    font-size: 17px;
+    padding: 14px 16px;
+}
+
+img{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+img:hover{
+    box-sizing: 0 0 2px 1px rgba (0, 140, 186);
+}
+
+.col-md-8{
+    text-align: left;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: large;
+    font-weight: 500;
+    color:black;
+    background-color: lightgray;
+}
+
+.card-text{
+    text-align: left;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: medium;
+    font-weight: 500;
+    color: black; 
+    
+}
+
+.card-img{
+    border-color: black;
+    border-radius: 50px;
+    border-width: 10px;
+}
+
+.style{
+    border-color: midnightblue;
+    border-radius: 50px;
+}
+
+.card-body{
+    font-family: Comic Sans MS, Comic Sans, cursive; 
+    background-color: lightgray;
+
+
+}
