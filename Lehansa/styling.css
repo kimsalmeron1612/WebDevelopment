@@ -1,3 +1,105 @@
+.form-control {
+    box-shadow: none;
+    border-radius: 4px;
+    border-color: #dfe3e8;
+}
+.form-control:focus {
+    border-color: #29c68c;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    background: #fff;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-bottom: 1px solid #dfe3e8;
+    border-radius: 0;
+}
+.navbar .navbar-brand {
+    font-size: 20px;
+    padding-left: 0;
+    padding-right: 50px;
+}
+.navbar .navbar-brand b {
+    font-weight: bold;
+    color: #29c68c;
+}
+.navbar ul.nav li a {
+    color: #999;
+}
+.navbar ul.nav li a:hover, .navbar ul.nav li a:focus {
+    color: #29c68c !important;
+}
+.navbar ul.nav li.active > a, .navbar ul.nav li.open > a {
+    color: #26bb84 !important;
+    background: transparent !important;
+}
+.navbar .form-inline .input-group-addon {
+    box-shadow: none;
+    border-radius: 2px 0 0 2px;
+    background: #f5f5f5;
+    border-color: #dfe3e8;
+    font-size: 16px;
+}
+.navbar .form-inline i {
+    font-size: 16px;
+}
+.navbar .form-inline .btn {
+    border-radius: 2px;
+    color: #fff;
+    border-color: navy;
+    background:navy;
+    outline: none;
+}
+.navbar .form-inline .btn:hover, .navbar .form-inline .btn:focus {
+    border-color: #26bb84;
+    background: #26bb84;
+}
+.navbar .search-form {
+    display: inline-block;
+}
+.navbar .search-form .btn {
+    margin-left: 4px;
+}
+.navbar .search-form .form-control {
+    border-radius: 2px;
+}
+.navbar .login-form .input-group {
+    margin-right: 4px;
+    float: left;
+}
+.navbar .login-form .form-control {
+    max-width: 158px;
+    border-radius: 0 2px 2px 0;
+}
+.navbar .navbar-right .dropdown-toggle::after {
+    display: none;
+}
+.navbar .dropdown-menu {
+    border-radius: 1px;
+    border-color: #e5e5e5;
+    box-shadow: 0 2px 8px rgba(0,0,0,.05);
+}
+.navbar .dropdown-menu li a {
+    padding: 6px 20px;
+}
+.navbar .navbar-right .dropdown-menu {
+    width: 505px;
+    padding: 20px;
+    left: auto;
+    right: 0;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
 .navbar{
 position:absolute;
 top:30px;
@@ -15,9 +117,9 @@ font-family:'Courier New', Courier, monospace;}
 #Welcome {
      text-align:center;
            font-size: 100px;
-           float:middle;
+           float:bottom;
            border-style:groove;
-           padding:50px;
+           padding:100px;
             font-family:Optima, sans-serif;
             background-color:navy;
             color:white;
@@ -40,7 +142,13 @@ font-family:'Courier New', Courier, monospace;}
             background-color:rgb(12, 170, 218);
             color:white; }
             
-
+#para{
+    text-align: center;
+           padding:10px 20px;
+           margin:100px 0px;
+            font-family:Optima, sans-serif;
+            color:white; }
+}
        #foot{
         text-align:left;
         font-family:Optima, sans serif; 
@@ -65,25 +173,28 @@ font-family:'Courier New', Courier, monospace;}
 
 #jobs{
     text-align: center;
-    padding:50px 20px;
-    margin:200px 150px;
-     font-family:Optima, sans-serif;
-     background-color:rgb(12, 170, 218);
-     color:white; 
-     border-radius:40px;}
+           padding:0px 0px;
+           margin:0px 0px;
+            font-family:Optima, sans-serif;
+            background-color:rgb(12, 170, 218);
+            color:white; 
+            border-radius:40px;}
      #jobbing{
         text-align: middle;
         background-color:white;
     }
 
-#food{
+#foods{
     text-align: center;
-    padding:50px 20px;
-    margin:120px 150px;
-     font-family:Optima, sans-serif;
-     background-color:rgb(12, 170, 218);
-     color:white; 
-     border-radius:40px;
+    padding:0px 0px;
+    margin:0px 0px;
+            font-family:Optima, sans-serif;
+            background-color:rgb(12, 170, 218);
+            color:white; 
+            border-radius:0px;}
+#food{
+    text-align: middle;
+        background-color:white;
 }
 
 
@@ -92,22 +203,15 @@ font-family:'Courier New', Courier, monospace;}
      color:navy;
  }
 
-    #carouselExampleIndicators img{
-        width: 30%;
-        height:30%;
+    #carouselExampleCaptions{
+        width: 100%;
+        height:100%;
         
         }
       
-        #food{
-           text-align: center;
-    padding:50px 20px;
-    margin:120px 150px;
-     font-family:Optima, sans-serif;
-     background-color:rgb(12, 170, 218);
-     color:white; 
-     border-radius:40px;
-            text-align: middle;
-            background-color:white;}
+    .dropdown-toggle{
+        text-align: middle;
+    }
 
             .header{
                 text-align:center;
